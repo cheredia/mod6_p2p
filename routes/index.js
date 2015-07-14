@@ -7,6 +7,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'QUIZ - Módulo 6' });
 });
 
+
+router.get("/creditos", quizController.creditos);
+
 /*  Rutas: GET /quizes/question y GET /quizes/answer */
 router.get('/quizes/question', quizController.question);
 router.get('/quizes/answer', quizController.answer);

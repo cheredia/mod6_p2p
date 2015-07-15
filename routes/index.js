@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 });
 
 
-router.get("/creditos", quizController.creditos);
+router.get("/author", quizController.author);
 
 /*  Rutas: GET /quizes/question y GET /quizes/answer */
 router.get('/quizes/question', quizController.question);

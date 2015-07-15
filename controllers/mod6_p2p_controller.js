@@ -1,6 +1,6 @@
 // GET quizes/question
 
-exports.creditos = function (req, res){
+exports.author = function (req, res){
 	res.render("author", {title : "CREDITOS", nombreautor : "Carola H.O.", fotoautor : "/images/autores/carola.jpg"});
 }
 
